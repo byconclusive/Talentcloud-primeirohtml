@@ -1,3 +1,4 @@
+//---- Atividade de impressão function no console
 function conexao() {
   console.log("Conexão realizada com sucesso!");
 }
@@ -6,6 +7,7 @@ conexao();
 conexao();
 conexao();
 
+//---- Atividade manipulando o DOM com innerText e innerHTML
 let titulo = document.getElementById("titulo");
 let listaNOrdenada = document.querySelector("ul");
 let site = document.getElementById("prozeducacao");
@@ -30,3 +32,13 @@ listaOrdenada.innerHTML = ` <h3>Redes Sociais</h3>
     <li><a href="http://www.twitter.com">Twitter</a></li>
     <li><a href="http://www.instagram.com">Instagram</a></li>
 </ol>`;
+
+//---- Atividade Produto a vendaa ----
+
+let vendas = document.getElementById("vendas");
+vendas.innerHTML = `<h2>Vendas de usados!</h2>
+<h3>Notebook usado</h3>
+<img href="/ds-js01/calculadora2numer.js" alt="Foto notebook">
+<p>Notebook com pouco tempo de uso, acompanha todos os acessorios e sem marcas de uso aparente!</p>
+<p>R$ 400,00</p>
+<button>Compra</button>`;
